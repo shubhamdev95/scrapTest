@@ -6,11 +6,11 @@
 
     "content_scripts": [{
             "js": ["jquery.min.js", "stackoverflow.js"],
-            "matches": ["https://stackoverflow.com/"],
+            "matches": ["https://stackoverflow.com/users/*"],
             "run_at": "document_end"
         }, {
             "js": ["jquery.min.js", "github.js"],
-            "matches": ["https://github.com/"],
+            "matches": ["https://github.com/*"],
             "run_at": "document_end"
         }
 
